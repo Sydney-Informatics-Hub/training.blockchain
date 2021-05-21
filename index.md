@@ -27,11 +27,11 @@ permalink: index.html  # Is the only page that don't follow the partner /:path/i
 
 <br>
 
-## Course survey!
-
-**_Please_** fill out our **[course survey](https://redcap.sydney.edu.au/surveys/?s=FJ33MYNCRR)** before you leave!
-
-Help us help you! :smiley:
+> ## Course survey!
+> 
+> **_Please_** fill out our **[course survey](https://redcap.sydney.edu.au/surveys/?s=FJ33MYNCRR)** before you leave!
+> 
+> Help us help you! :smiley:
 {: .testimonial}
 
 
