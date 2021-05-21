@@ -1,17 +1,20 @@
 ---
-title: "1. Accelerating Python"
+title: "1. Blockchain for Beginners"
 teaching: 10
 exercises: 0
 questions:
-- "Who are the Sydney Informatics Hub?"
-- "How do you make your Python faster?"
+- "What is a Blockcahin"
+- "How is that related to a Bitcoin?"
+- "What is a Smart Contract?"
 objectives:
-- "Understand the Accelerated Python ecosystem."
+- "Understand the Blockchain ecosystem and history."
 keypoints:
 - "SIH is availble to researchers to help them research!"
-- "Many ways to make Python go faster."
+- "A Blockchain is a decentralised database."
+- "Bitcoin was first, then many more".
+- "Many tools are availble to interact with the blockchain ecosystem".
 ---
-This episode introduces the [Sydney Informatics Hub](https://informatics.sydney.edu.au/), and puts into context the desire to make our Python code/scripts run faster and efficiently.
+This episode introduces the [Sydney Informatics Hub](https://informatics.sydney.edu.au/), and provides a brief background on Blockchain tecnhology and the tools and terminology within the ecosystem.
 
 
 # The Sydney Informatics Hub
@@ -32,47 +35,35 @@ The Sydney Informatics Hub (SIH) is a _[Core Research Facility](https://sydney.e
 We also aim to cultivate a **data community** at USyd, organising monthly [Hacky Hours](https://sydney.edu.au/research/facilities/sydney-informatics-hub/workshops-and-training/hacky-hour.html), outside training events (eg NVIDIA, Pawsey Center), and data/coding-related events. Look out for everthing happening on our [calander](https://www.sydney.edu.au/research/facilities/sydney-informatics-hub/workshops-and-training/training-calendar.html) or contact us (at sih.info@sydney.edu.au) to get some digital collaboration going.
 
 <br>
-# Acceleration, Paralleisation, Vectorising, Threading, make-Python-go-fast 
 
-We will cover a few of the ways that you can potentially speed up Python. As we will learn there are multitudes of methods to make Python code more efficient, and also different implentations of libraries, tools, techniques that can all be utilised depending on how your code and/or data is organised. This is a rich and evolving ecosystem and there is no one perfect way to implement efficiencies.
+# Course pre-requisites
+Background in coding will be helpful.
+
+<br>
+
+# Blockchain Ecosystem
+
+The **blockchain** is the distributed database that drives cryptocurrencies and smart contracts.
 
 Some key words that might come up:
 
-* Vectorisation
-* MPI message parsing interface
-* CPU, core, node, thread, process, worker, job, task
-* Parallelisation
-* Python decorators and functional programming.
-
-
-<br>
-# Course pre-requisites
-You should have some experience with Python. You should be able to connect to a remote computer (i.e. Artemis) via ssh and submit a job to a scheduler.
-
+* Solidity
+* Bitcoin, Ethereum, Cardano, Hyperledger 
+* Cryptocurrency
+* Smart Contracts
+* Truffle, Ganace, Metamask, etherum remix, web3.js, infura.
+* Wallets, address
 
 <br>
-# What does *parallel* mean?
-Seperate workers or processes acting in an independent or semi-dependent manner. Independent processes ship data, program files and libraries to an isloated ecosystem where computation is performed Communication between workers can be achieved. Contrastingly there are also shared memory set ups where multiple computational resources are pooled together to work on the same data. 
 
-Generally speaking parallel workflows fit different categories, which can make you think about how to write your code and what approaches to take.
+# Technology behind blockchain
 
-### Embarrassingly parallel:
-Requires no communication between processors. Utilise shared memory spaces.
+Hash functions etc
 
-* running same algorithm for a range of input parameters
-* rendering video frames in computer animation
-* Open MP implementations.
+# Examples
 
-### Coarse/Fine-grained parallel:
-Requires occasional or frequent communication between processors
-
-* Uses a small number of processes on large data. 
-* Fine grain uses a large number of small processes with very little communication. Improves computationally bound problems.
-* MPI implementations.
-* Some examples are finite difference time-stepping on parallel grid, finite element methods.
-
-Traditional implemententations of paralellism  are done on a low level. However, open source software has ***evolved*** dramatically over the last few years allowing more ***high level implementations and concise 'pythonic' syntax*** that wraps around low level tools. The focus on this course is to use these modern high level implementations for use on Artemis.
-
-Let's get started with some examples....
+* writing in solidity.
+* deploying the contract to a/the network
+* using the contract
 
 
