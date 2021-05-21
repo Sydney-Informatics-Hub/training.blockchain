@@ -5,8 +5,8 @@ title: "Citation"
 
 #### Please cite as:
 
-Hayim Dar, Nathaniel Butterworth, Cali Willet (eds):   
-"_Sydney Informatics Hub: Artemis Training_", Version 2018.10, October 2018   
+Nathaniel Butterworth (eds):   
+"_Sydney Informatics Hub: Blockchain for Researchers_", Version 2021.06, June 2021   
 {{ site.series_home }}
 
 <br>
