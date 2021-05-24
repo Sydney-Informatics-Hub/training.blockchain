@@ -66,4 +66,16 @@ Hash functions etc
 * deploying the contract to a/the network
 * using the contract
 
+# There are many blockchains
+Bitcoin was the first. https://bitcoin.org/bitcoin.pdf
+
+Satoshi Nakamoto: https://en.wikipedia.org/wiki/Satoshi_Nakamoto
+
+From the original blocks mined: 1,148,800 BTC has never been spent [(ref>)](https://bitslog.com/2013/04/17/the-well-deserved-fortune-of-satoshi-nakamoto/).
+
+https://www.hyperledger.org/about
+
+# Blockchain Explorer
+Visit *the blockchain* at https://etherscan.io/ or https://www.blockchain.com/explorer and see live transactions. Everything is stored in the ledger.
+
 
