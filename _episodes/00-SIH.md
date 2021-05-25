@@ -1,5 +1,5 @@
 ---
-title: "00. Intro to SIH"
+title: "Intro to SIH"
 teaching: 5
 exercises: 0
 questions:
