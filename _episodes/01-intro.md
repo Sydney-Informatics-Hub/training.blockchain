@@ -1,5 +1,5 @@
 ---
-title: "1. Blockchain for Beginners"
+title: "Blockchain for Beginners"
 teaching: 10
 exercises: 0
 questions:
