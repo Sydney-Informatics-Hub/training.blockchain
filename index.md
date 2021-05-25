@@ -16,13 +16,9 @@ permalink: index.html  # Is the only page that don't follow the partner /:path/i
 
 > ## Prerequisites
 >
-> You must have competency on the Unix/Linux command line. If you are interested in learning HPC but have no Unix/Linux command-line skills, you MUST first take an [Introduction to Unix/Linux](https://intersect.org.au/training/course/unix) course, followed by [‘_Introduction to Artemis HPC_’]({{ site.sih_pages }}/training.artemis.interhpc).
->
->You should be able to read and write basic Python scripts.
->
-> You are assumed to have your own Artemis account, know how to connect to Artemis, navigate its filesystem, and submit jobs to the PBS Scheduler. If you are not familiar with HPC, you should take [‘_Introduction to Artemis HPC_’]({{ site.sih_pages }}/training.artemis.interhpc) before attempting this course. This will teach you the basic requirements around HPC environments. 
->
-> **OWN LAPTOP REQUIRED**.
+> You have stedy internet connection and a modern computer. 
+> Competency on the Unix/Linux command line or any programming skills will be helpful, but not necessary. 
+> 
 {: .prereq}
 
 <br>
