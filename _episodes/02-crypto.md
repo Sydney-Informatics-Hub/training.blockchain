@@ -1,5 +1,5 @@
 ---
-title: "2. Write your own Crypto"
+title: "Write your own Crypto"
 teaching: 10
 exercises: 15
 questions:
