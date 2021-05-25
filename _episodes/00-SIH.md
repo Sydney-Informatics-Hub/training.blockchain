@@ -1,6 +1,6 @@
 ---
 title: "00. Intro to SIH"
-teaching: 10
+teaching: 5
 exercises: 0
 questions:
 - "Who are the Sydney Informatics Hub"
