@@ -1,18 +1,17 @@
 ---
-title: "2. Simple methods"
+title: "2. Write your own Crypto"
 teaching: 10
 exercises: 15
 questions:
-- "Which method for acceleration should I choose?"
+- "How do I write my own cryptocurrency?"
 objectives:
-- "Learn simples methods to profile your code"
-- "See how numpy and pandas use Vectorising to improve perfomance for some data"
-- "Use MPI to communicate between workers"
+- "Write a cryptocurrency in Solidity"
+- "Deploy the contract to the network"
 keypoints:
-- "Understand there are different ways to accelerate"
-- "The best method depends on your algorithms, code and data"
+- "A cryptocurrency is a contract"
+- "Contract transactions are verified on the network"
 ---
-This episode shows you a few of the basic tools that we can use in Python to make our code go faster. There is no perfect method for optimising code. Efficiency gains depend on what your end goal is, what libraries are available, what method or approach you want to take when writing algorithms, what your data is like, what hardware you have. Hopefully these notes will allow you to think about your problems from different perspectives to give you the best opportunity to make your development and execution as efficient as possible.
+This episode shows you how to write your own cryptocurrency contract using the Solidity programming language. We can then launch this coin/contract to the Etherum (or test) network.
 
 
 # Writing your own cryptocurrency
@@ -74,7 +73,7 @@ contract SIHCoin {
     }
 }
 ~~~
-{: .python}
+{:. bash}
 
 
 
