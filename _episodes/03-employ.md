@@ -1,5 +1,5 @@
 ---
-title: "3. An employment contract"
+title: "An employment contract example"
 teaching: 5
 exercises: 20
 questions:
