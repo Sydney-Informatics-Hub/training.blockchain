@@ -2,6 +2,8 @@
 
 Browse the repo to see more training from SIH
 
+This repo is rendered at:https://sydney-informatics-hub.github.io/training.blockchain/
+
 
 ## Contributing
 
