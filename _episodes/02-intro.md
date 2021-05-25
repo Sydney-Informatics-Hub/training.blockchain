@@ -3,7 +3,7 @@ title: "Blockchain for Beginners"
 teaching: 10
 exercises: 0
 questions:
-- "What is a Blockcahin"
+- "What is a Blockcahin?"
 - "How is that related to a Bitcoin?"
 - "What is a Smart Contract?"
 objectives:
@@ -11,7 +11,7 @@ objectives:
 keypoints:
 - "A Blockchain is a decentralised database."
 - "Bitcoin was first, then many more".
-- "Many tools are availble to interact with the blockchain ecosystem".
+- "Many tools are availble to interact with the blockchain ecosystem."
 ---
 
 # Blockchain Ecosystem
