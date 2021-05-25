@@ -10,14 +10,15 @@ objectives:
 - "Understand the Blockchain ecosystem and history."
 keypoints:
 - "A Blockchain is a decentralised database."
-- "Bitcoin was first, then many more".
+- "Bitcoin was first, then many more"
 - "Many tools are availble to interact with the blockchain ecosystem."
 ---
+The **blockchain** is the distributed immutable database that drives cryptocurrencies and smart contracts.
+A series of transaction pools (blocks) connected by a hash pointer (chain).
 
 # Blockchain Ecosystem
 
-The **blockchain** is the distributed immutable database that drives cryptocurrencies and smart contracts.
-A series of transaction pools (blocks) connected by a hash pointer (chain).
+
 
 Some key words that might come up:
 
