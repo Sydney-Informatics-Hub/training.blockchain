@@ -4,28 +4,23 @@ layout: page
 root: "."
 ---
 
-# 1. Get a Python client
-We generally use and recommend Miniconda Python distribution: [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html). But feel free to use whatever one works for you.
-You can do all the exercises on Artemis for the training session, but in the real worl it is best to do offline development so we recommend getting Python working.
+# 1. Get a text editor
+https://notepad-plus-plus.org/ for Windows.
+https://macromates.com/ for Mac
+Or whatever you like.
 
 <br>
 
-## 2. Python environemnt
-To run all the commands today in your own Python installation, you can set up an environemnt with something like this:
-
-~~~
-conda create -n dd dask==2.11.0 distributed==2.11.0 netCDF4==1.5.3 numpy==1.18.1 pandas==1.0.1 scipy==1.4.1 xarray==0.15.0 mpi4py==3.0.3 -c conda-forge
-~~~
+## 2. Online Solidity editor
+https://remix.ethereum.org/
 
 <br>
 
-# 3. Get access to the HPC
-Visit [https://dashr.sydney.edu.au/](https://dashr.sydney.edu.au/) and make a project, be sure to request Artemis HPC access for the project.
-Otherwise the ideas and methods we will present today are transferable to national HPC infastructure like NCI or Pawsey or even any  cloud providor.
-
+# 3. Metamask
+Get a Metamask wallet and account: https://metamask.io/
 <br>
 
-# 4. Get a shell terminal emulator
+# 4. 
 
 To connect to Artemis HPC, and follow this lesson, you will need a **'terminal emulator'** program installed on your computer. Often just called a 'terminal', or 'shell terminal', 'shell client', terminal emulators give you a window with a _command line interface_ through which you can send commands to be executed by your computer.
 
