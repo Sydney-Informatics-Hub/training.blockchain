@@ -16,18 +16,26 @@ This episode shows you how to write your own cryptocurrency contract using the S
 
 # Writing your own cryptocurrency
 
-Let's all become SIHCoin trillionaires! Visit https://remix.ethereum.org/ and we will start writing our contracts.
+Let's all become SIHCoin trillionaires! Visit [https://remix.ethereum.org/](https://remix.ethereum.org/) and we will start writing our own smart-contracts.
 
 ~~~
+//declare version of compiler (ranges can be used)
 pragma solidity ^0.5.0;
 
-//Setup the contract with variables defined.
+/*
+Setup the contract with variables defined.
+A Solidity contract type is a collection of code, functions, etc, that lives at an address on the blockchain
+*/
 contract SIHCoin {    
+
+    //variables types and names are declared 
     string name_;
     string symbol_;
     uint8 decimal_;
     uint256 totalsupply;
     
+    //constructor is a function that is only run when the contract is deployed only
+    //we set the variables and whether this is public/private
     constructor (string memory _name, string memory _symbol, uint8 _decimal, uint256 _totalsupply) public {
         name_ = _name;
         symbol_ = _symbol;
@@ -36,6 +44,7 @@ contract SIHCoin {
         balances[msg.sender] = totalsupply;
     }
     
+    //functions are accessible to run at any time (and can be called by other contracts)
     function name() public view returns (string memory){
         return name_;
     }
@@ -75,46 +84,7 @@ contract SIHCoin {
 ~~~
 {:. bash}
 
+The Ethereum Virtual Machine or EVM is the runtime environment for smart contracts in Ethereum. It is completely isolated, which means that code running inside the EVM has no access to network, filesystem or other processes.
 
 
-
-# MPI: Message Passing Interface
-MPI is a standardized and portable message-passing system designed to function on a wide variety of parallel computers.
-The standard defines the syntax and semantics of a core of library routines useful to a wide range of users writing portable message-passing programs in C, C++, and Fortran. There are several well-tested and efficient implementations of MPI, many of which are open-source or in the public domain.
-
-MPI for Python, found in [mpi4py](https://mpi4py.readthedocs.io/en/stable/index.html), provides bindings of the MPI standard for the Python programming language, allowing any Python program to exploit multiple processors. [This simple code](https://sydney-informatics-hub.github.io/training.artemis.python/files/mpi.py) demonstrates the collection of resources and how code is run on different processes:
-
-~~~
-#Run with:
-#mpiexec -np 4 python mpi.py
-
-from mpi4py import MPI
-
-comm = MPI.COMM_WORLD
-size = comm.Get_size()
-rank = comm.Get_rank()
-
-print("I am rank %d in group of %d processes." % (rank, size))
-~~~
-{: .python}
-
-If you want to submit this python script on Artemis, the PBS script is below. Notice here we are requesting 4 seperate nodes in the PBS script. This amount aligns with the ```-np 4``` flag (number of processes), so each process is seperate and executed on different nodes on Artemis.
-~~~
-#!/bin/bash
-
-#PBS -P Training
-#PBS -N testmpi
-#PBS -l select=4:ncpus=1:mem=1GB
-#PBS -l walltime=00:10:00
-#PBS -q defaultQ
-
-cd $PBS_O_WORKDIR
-module load python
-module load openmpi-gcc
-
-mpiexec -np 4 python mpi.py > mpi.out
-~~~
-{:. bash}
-
-Let's now get stuck into some more specific use-cases and tools to use.
 
