@@ -16,7 +16,7 @@ This episode shows you how to write your own cryptocurrency contract using the S
 
 # Writing your own cryptocurrency
 
-Let's all become SIHCoin trillionaires! Visit [https://remix.ethereum.org/](https://remix.ethereum.org/) and we will start writing our own smart-contracts.
+Let's all become SIHCoin trillionaires! Visit [https://remix.ethereum.org/](https://remix.ethereum.org/) and we will start writing our own smart-contracts and [ERC-20 tokens](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/).
 
 ~~~
 //declare version of compiler (ranges can be used)
