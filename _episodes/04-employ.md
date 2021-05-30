@@ -30,7 +30,7 @@ We are building our first app!
 
 //import "../2_Owner.sol"
 
-contract Nathan {
+contract EmployContract {
   
     bool isOpen;    //camelCase
     bool isValidInOffice; //bool can be true or false
