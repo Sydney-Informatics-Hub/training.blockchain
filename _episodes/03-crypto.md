@@ -39,7 +39,7 @@ contract SIHCoin {
     uint256 totalsupply;
     
     //constructor is a function that is only run when the contract is deployed only
-    //we set the variables and whether this is public/private
+    //we set the variables and whether this is public/private/internal/external
     constructor (string memory _symbol, uint256 _totalsupply) public {
         
         //_leading underscores indicate variable is private
