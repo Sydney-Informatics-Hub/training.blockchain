@@ -52,6 +52,11 @@ contract SIHCoin {
         //msg.sender address of the person clicking the button
     }
     
+    //Visibility
+    //external - fn can called by external 
+    //internal - can only be called from contract or derived contracts
+    //public - universal
+    //private - can only be called within the same contract    
     
     //functions are accessible to run at any time (and can be called by other contracts)
     //Returns the currecny symbol
@@ -59,6 +64,10 @@ contract SIHCoin {
     function symbol() public view returns (string memory) {
         return symbol_;
     }
+    
+    //memory - lifetime limited to function call
+    //storage - lifetime is entire contract
+    //calldata - only availble to eternal fn call params
     
     //Returns the circulating supply of the currency
     function totalSupply() public view returns (uint256){
